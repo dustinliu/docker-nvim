@@ -15,5 +15,8 @@ RUN apk update && \
          ripgrep \
          fd \
          tree-sitter-cli \
-         base-build
+         build-base \ 
+         unzip \
+         gzip \
+         nodejs
 RUN adduser -h /home/nvim -s /bin/zsh -D nvim nvim
