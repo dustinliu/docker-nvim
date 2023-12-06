@@ -14,5 +14,6 @@ RUN apk update && \
          tmux \
          ripgrep \
          fd \
-         tree-sitter-cli
+         tree-sitter-cli \
+         base-build
 RUN adduser -h /home/nvim -s /bin/zsh -D nvim nvim
